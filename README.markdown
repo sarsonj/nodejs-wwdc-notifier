@@ -1,9 +1,9 @@
 #NodeJS WWDC Notifier
 
-This is simple nodejs script, that will check WWDC homepage and notify you by SMS or/and phone call, when Apple updates it. It is extremelly useful if you want
-to capture WWDC ticket, because it is usually sold out very quickly.
+This is simple nodejs script, that will check WWDC homepage and notify you by SMS or/and phone call, when Apple changes it (hopefully with WWDC 2013 info). It is extremelly useful if you want
+to capture WWDC ticket, because they are usually sold out very quickly.
 
-This script is supposed to run on your server as standalone service. When statred, it will check Apple WWDC site every 30 seconds and when the page changes from
+This script is supposed to run on your server as standalone service. When started, it will check Apple WWDC site every 30 seconds and when the page changes from
 WWDC 2012 site, you will be notified. This script works as deamon, it means that it is not supposed to run it by cron every minute or so. Just start it one!
 
 ##Setup
@@ -24,4 +24,6 @@ Just clone this repository, configure required variables and install dependency 
 Then start script using your favorite technique for running of deamon node-js scripts. Simple `nohup` will works as well. Or you can use something more
 advace, like [Forever](http://blog.nodejitsu.com/keep-a-nodejs-server-up-with-forever).
 
-
+##Disclaimer
+No warranties, I will not be responsible if you miss your ticked because of this sript. But I am using it as well, so that at least if there is some critical bug, I 
+will not go to SF as well :-).
