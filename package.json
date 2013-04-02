@@ -1,0 +1,11 @@
+{
+	"name": "WWDCChecker",
+	"version": "0.1.0",
+	"description": "",
+	"dependencies": {
+		"twilio":">=0.1"
+	},
+	"engines": {
+		"node": ">=0.8"
+	}
+}
